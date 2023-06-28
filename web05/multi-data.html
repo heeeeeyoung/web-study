@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <title>레드향 주문서</title>
+  </head>
+
+  <body>
+    <h1>레드향 주문서</h1>
+
+    <form>
+      <fieldset>
+        <legend>상품 선택</legend>
+
+        <h1><b>주문할 상품을 선택해 주세요</b></h1>
+
+        <label for="prod1">상품선택</label>
+        <select id="prod1">
+          <option value="special_3" selected>선물용 3kg</option>
+          <option value="special_5">선물용 5kg</option>
+          <option value="family_3">가정용 3kg</option>
+          <option value="family_5">가정용 5kg</option>
+        </select>
+
+        <h1><b>포장 선택</b></h1>
+        <label><input type="radio" name="gift" value="yes" />선물 포장</label>
+        <label
+          ><input type="radio" name="gift" value="no" />선물 포장 안 함</label
+        >
+      </fieldset>
+    </form>
+  </body>
+</html>
