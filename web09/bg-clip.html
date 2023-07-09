@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <title>bg-clip</title>
+
+    <style>
+      #clip1 {
+        background-clip: border-box;
+      }
+
+      #clip2 {
+        background-clip: padding-box;
+      }
+
+      #clip3 {
+        background-clip: content-box;
+      }
+
+      .con {
+        width: 500px;
+        height: 200px;
+
+        font-size: xx-large;
+        font-weight: bolder;
+
+        border: 4px dotted navy;
+        background-color: pink;
+
+        margin: 20px 20px;
+        padding: 50px 50px;
+      }
+    </style>
+  </head>
+
+  <body>
+    <div id="clip1" class="con">
+      오늘은 다인이랑 유빈이를 만나는 날. 유빈 넘 오랜망ㅇㅇ ㅎㅎ
+    </div>
+    <div id="clip2" class="con">
+      다인이랑은 사실 몇주 전에 봤댱 술도 마셨당 유비니는 못본지 넘 오래됨
+    </div>
+    <div id="clip3" class="con">노래방도 가야징 ㅎ</div>
+  </body>
+</html>
