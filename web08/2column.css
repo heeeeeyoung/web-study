@@ -1,0 +1,32 @@
+.header {
+  width: 1200px;
+  height: 120px;
+  background-color: rgb(210, 148, 159);
+}
+
+.side {
+  width: 300px;
+  height: 600px;
+  float: left;
+  background-color: rgb(147, 147, 189);
+}
+
+.content {
+  width: 900px;
+  height: 600px;
+  float: left;
+  background-color: beige;
+}
+
+.footer {
+  width: 1200px;
+  height: 100px;
+  background-color: rgb(210, 148, 159);
+  clear: left;
+}
+
+.container {
+  text-align: center;
+  font-size: xx-large;
+  font-weight: bold;
+}

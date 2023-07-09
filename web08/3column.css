@@ -1,0 +1,43 @@
+.head {
+  width: 1200px;
+  height: 120px;
+  background-color: pink;
+}
+
+.side {
+  width: 250px;
+  height: 600px;
+  background-color: rgb(90, 115, 51);
+
+  float: left;
+}
+
+.content {
+  width: 800px;
+  height: 600px;
+  background-color: rgb(205, 159, 205);
+
+  float: left;
+}
+
+.side2 {
+  width: 150px;
+  height: 600px;
+  background-color: rgb(90, 115, 51);
+
+  float: left;
+}
+
+.footer {
+  width: 1200px;
+  height: 100px;
+  background-color: pink;
+
+  clear: left;
+}
+
+.container {
+  text-align: center;
+  font-size: xx-large;
+  font-weight: bolder;
+}

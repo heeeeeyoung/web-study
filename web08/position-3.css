@@ -1,0 +1,21 @@
+h1 {
+  color: pink;
+  font-size: 120px;
+  font-weight: bolder;
+  text-shadow: 10px 10px 10px rgb(200, 56, 80);
+}
+
+.img {
+  background: url(image/cat.jpg) no-repeat;
+  background-size: contain;
+  padding: 200px 300px;
+  margin: 0 auto;
+
+  position: relative;
+}
+
+.center {
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+}
