@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <title>repeating</title>
+
+    <style>
+      div {
+        width: 500px;
+        height: 500px;
+
+        margin: 20px 20px;
+      }
+
+      .grad1 {
+        background: repeating-linear-gradient(
+          pink,
+          pink 20px,
+          coral 20px,
+          coral 40px
+        );
+      }
+
+      .grad2 {
+        background: repeating-radial-gradient(
+          circle,
+          pink,
+          pink 10%,
+          coral 10%,
+          coral 20%
+        );
+      }
+    </style>
+  </head>
+
+  <body>
+    <div class="grad1"></div>
+    <div class="grad2"></div>
+  </body>
+</html>
