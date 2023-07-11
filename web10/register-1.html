@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <title>register</title>
+
+    <link rel="stylesheet" href="register-1.css" />
+  </head>
+  <body>
+    <div>
+      <fieldset>
+        <caption>
+          <h2>로그인 정보</h2>
+        </caption>
+        <label><br />아이디 <input type="text" /></label>
+        <label><br />비밀번호<input type="password" /></label>
+        <label><br />비밀번호 확인<input type="password" /></label>
+        <label for="person"><br />회원 등급</label>
+        <select id="person">
+          <option value="1" selected>신입임</option>
+          <option value="2">좀 됨</option>
+          <option value="3">좀 많이 됨</option>
+          <option value="4">고인물</option>
+        </select>
+      </fieldset>
+
+      <fieldset>
+        <caption>
+          <h2>개인 정보</h2>
+          <label
+            ><br />이름 <input type="text" placeholder="5자미만 공백없이"
+          /></label>
+          <label
+            ><br />메일 주소
+            <input type="text" placeholder="khy11009@naver.com"
+          /></label>
+          <label><br />연락처 <input type="tel" /></label>
+        </caption>
+      </fieldset>
+
+      <fieldset>
+        <button>제출</button>
+      </fieldset>
+    </div>
+  </body>
+</html>
