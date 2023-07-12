@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <title>attr-3</title>
+
+    <style>
+      [class~="button"] {
+        box-shadow: rgba(0, 0, 0, 0.4) 4px 4px;
+        border-radius: 5px;
+      }
+
+      li {
+        list-style: none;
+        float: left;
+
+        margin: 20px;
+        padding: 10px 10px;
+
+        color: navy;
+        background-color: pink;
+      }
+    </style>
+  </head>
+  <body>
+    <ul>
+      <li><a href="#" class="flat">메뉴 1</a></li>
+      <li><a href="#" class="flat">메뉴 2</a></li>
+      <li><a href="#" class="button">메뉴 3</a></li>
+      <li><a href="#" class="flat button">메뉴 4</a></li>
+    </ul>
+  </body>
+</html>
