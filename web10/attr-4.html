@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <title>attr-4</title>
+
+    <style>
+      a[title|="us"] {
+        background: url(image/jjanggoo.jpg) no-repeat left center;
+        background-size: 50px;
+      }
+
+      a[title|="jap"] {
+        background: url(image/cat.jpg) no-repeat left center;
+      }
+
+      a[title|="chn"] {
+        background: url(image/cat2.jpg) no-repeat left center;
+        background-size: 100px;
+      }
+
+      li {
+        list-style: none;
+
+        margin: 50px 50px;
+
+        float: left;
+
+        font-size: 50px;
+      }
+    </style>
+  </head>
+  <body>
+    <ul>
+      <li>외국어 서비스 :</li>
+      <li><a href="#" title="us-english">영어</a></li>
+      <li><a href="#" title="ja">일본어</a></li>
+      <li><a href="#" title="chn">중국어</a></li>
+    </ul>
+  </body>
+</html>
