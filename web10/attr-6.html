@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <title>attr-6</title>
+
+    <style>
+      a[href$="hwp"] {
+        background: url(image/cat.jpg) center right no-repeat;
+        padding-right: 25px;
+      }
+
+      a[href$="xls"] {
+        background: url(image/cat2.jpg) center right no-repeat;
+        padding-right: 25px;
+      }
+
+      li {
+        margin: 50px 50px;
+
+        font-size: 50px;
+      }
+    </style>
+  </head>
+  <body>
+    <h3>회사 소개 파일 내려받기</h3>
+
+    <ul>
+      <li><a href="intro.hwp">hwp 파일</a></li>
+      <li><a href="intro.xls">xls 파일</a></li>
+    </ul>
+  </body>
+</html>
