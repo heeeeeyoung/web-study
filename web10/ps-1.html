@@ -7,14 +7,24 @@
 
     <style>
       #intro:target {
-        background-color: #0069e0;
-        color: #fff;
+        background-color: pink;
+        color: rgb(177, 88, 202);
+      }
+
+      #room:target {
+        background-color: pink;
+        color: rgb(177, 88, 202);
+      }
+
+      #reservation:target {
+        background-color: pink;
+        color: rgb(177, 88, 202);
       }
 
       .navi ul li {
         float: left;
-        width: 150px;
-        padding: 10px;
+        width: 400px;
+        padding: 20px;
 
         list-style: none;
       }
@@ -22,9 +32,10 @@
       .navi a:link,
       .navi a:visited {
         display: block;
-        font-size: 14px;
+        font-size: 35px;
         color: #000;
         padding: 10px;
+        margin: 50px 10px;
         text-decoration: none;
         text-align: center;
       }
@@ -38,21 +49,66 @@
       .navi a:active {
         background-color: #f00;
       }
+
+      .navi {
+        display: inline-block;
+      }
+
+      h2 {
+        font-size: 50px;
+      }
+
+      p {
+        font-size: 30px;
+      }
+
+      div {
+        width: 500px;
+        height: 500px;
+        margin: 20px auto;
+
+        border: 4px solid pink;
+        padding: 20px 30px;
+      }
     </style>
   </head>
   <body>
     <nav class="navi">
       <ul>
-        <li><a href="intro">이용 안내</a></li>
-        <li><a href="#">객실 소개</a></li>
-        <li><a href="#">예약 방법 및 요금</a></li>
-        <li><a href="#">예약 하기</a></li>
+        <li><a href="#intro">이용 안내</a></li>
+        <li><a href="#room">객실 소개</a></li>
+        <li><a href="#reservation">예약 방법 및 요금</a></li>
+        <li><a href="#ps-2.html">예약 하기</a></li>
       </ul>
     </nav>
 
     <div id="intro">
+      <br />
       <h2>이용 안내</h2>
-      <p>잘 이용하세용</p>
+      <p>
+        잘 이용하세용. 더헙히지 마세용.... 잘 치우고.. 적당히 놀고.. 적당히
+        자고.. 야식.. 엽떡에 허니콤보
+      </p>
+    </div>
+
+    <div id="room">
+      <h2>객실 소개</h2>
+      <p>
+        객실이 넓을거에요 아마도 저도 사실 가 본 적은 없어요. 그나저나 8월에
+        친구들이랑 여수 여행가는데 아직 숙소를 정하지 못해 걱정이에요. 하지만
+        괜찮아요 오늘 다 모아서 1등을 정하고 내일 에약하기로 했으니까! 껄껄껄
+        기대됩니다.
+      </p>
+    </div>
+
+    <div id="reservation">
+      <h2>예약 방법 및 요금</h2>
+      <p>
+        저희는 야놀자랑 에어비앤비로 보면서 예약하려고 하는데 요즘 워낙 다 잘 돼
+        있잖아요. 그냥 적당한 사이트에서 잘 찾아보세용. 요금은 너무
+        케바케인디... 오션뷰가 좋긴 하지만 비싸죠.. 조식도 있음 좋을 것 같은데
+        에어비앤비로 가면 좀 더 갬성 있고...ㅎ
+      </p>
     </div>
   </body>
 </html>
