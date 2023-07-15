@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <title>perspective</title>
+
+    <style>
+      div {
+        width: 400px;
+        height: 400px;
+
+        margin: 50px 50px;
+      }
+
+      .rotatex:hover {
+        transform: rotateX(50deg);
+      }
+
+      #pers {
+        perspective: 300px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="rotatex"><img src="image/cat.jpg" /></div>
+    <div class="rotatex" id="pers"><img src="image/cat.jpg" /></div>
+  </body>
+</html>
