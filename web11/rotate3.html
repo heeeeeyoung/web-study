@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <title>rotate3</title>
+
+    <style>
+      .pers div {
+        width: 100px;
+        height: 100px;
+        background-color: orange;
+        box-shadow: 5px 5px 15px gray;
+        margin: 50px 50px;
+      }
+
+      .pers:hover {
+        perspective: 1000px;
+      }
+
+      .pers > div {
+        transition: all 3s;
+      }
+
+      #rotateX:hover {
+        transform: rotateX(55deg);
+      }
+
+      #rotateY:hover {
+        transform: rotateY(55deg);
+      }
+
+      #rotateZ:hover {
+        transform: rotateZ(55deg);
+      }
+
+      #rotateXYZ:hover {
+        transform: rotate3d(2.5, 1.2, -1.5, 55deg);
+      }
+    </style>
+  </head>
+  <body>
+    <div class="pers">
+      <div id="rotateX"></div>
+    </div>
+
+    <div class="pers">
+      <div id="rotateY"></div>
+    </div>
+
+    <div class="pers">
+      <div id="rotateZ"></div>
+    </div>
+
+    <div class="pers">
+      <div id="rotateXYZ"></div>
+    </div>
+  </body>
+</html>
