@@ -16,24 +16,34 @@ div {
 .box1:hover {
   width: 700px;
   height: 150px;
+
+  transition-timing-function: ease;
 }
 
 .box2:hover {
   width: 600px;
   height: 150px;
+
+  transition-timing-function: linear;
 }
 
 .box3:hover {
   width: 500px;
   height: 150px;
+
+  transition-timing-function: ease-in;
 }
 
 .box4:hover {
   width: 800px;
   height: 150px;
+
+  transition-timing-function: ease-out;
 }
 
 .box5:hover {
   width: 600px;
   height: 150px;
+
+  transition-timing-function: ease-in-out;
 }
