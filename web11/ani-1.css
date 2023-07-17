@@ -1,0 +1,43 @@
+div {
+  width: 300px;
+  height: 300px;
+
+  margin: 100px 100px;
+}
+
+#box1 {
+  background-color: pink;
+  border: 3px solid transparent;
+
+  animation-name: shape;
+  animation-duration: 3s;
+}
+
+#box2 {
+  background-color: green;
+  border: 4px solid transparent;
+
+  animation-name: rotate;
+  animation-duration: 3s;
+}
+
+@keyframes shape {
+  from {
+    border: 4px solid transparent;
+  }
+
+  to {
+    border: 4px solid black;
+    border-radius: 50%;
+  }
+}
+
+@keyframes rotate {
+  from {
+    transform: rotate(0deg);
+  }
+
+  to {
+    transform: rotate(45deg);
+  }
+}
