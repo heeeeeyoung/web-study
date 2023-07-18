@@ -32,3 +32,26 @@ li:not(:last-child):hover {
   background-color: black;
   color: white;
 }
+
+#menu3:hover {
+  transition: all 0.5s ease-in;
+  animation: change 2s;
+}
+
+@keyframes change {
+  from {
+    background-color: rgb(202, 198, 198);
+  }
+
+  30% {
+    background-color: rgb(198, 196, 196);
+  }
+
+  70% {
+    background-color: gray;
+  }
+
+  to {
+    background-color: rgb(106, 106, 106);
+  }
+}
