@@ -34,7 +34,8 @@ li:not(:last-child):hover {
 }
 
 #menu3:hover {
-  transition: all 0.5s ease-in;
+  background-color: initial;
+  color: initial;
   animation: change 2s;
 }
 
