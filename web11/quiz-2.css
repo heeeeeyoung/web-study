@@ -1,0 +1,23 @@
+img {
+  width: 400px;
+  height: 400px;
+
+  margin: 200px 200px;
+
+  border-radius: 50%;
+  animation: rotate 5s;
+}
+
+@keyframes rotate {
+  from {
+    transform: perspective(200px) rotateY(90deg);
+  }
+
+  50% {
+    transform: perspective(200px) rotateY(180deg);
+  }
+
+  to {
+    transform: perspective(200px) rotateY(360deg);
+  }
+}
