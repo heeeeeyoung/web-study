@@ -1,0 +1,36 @@
+.box {
+  width: 300px;
+  height: 100px;
+
+  border: 4px solid black;
+  background-color: pink;
+
+  margin: 50px 50px;
+}
+
+.container {
+  display: flex;
+
+  border: 4px solid red;
+  margin: 50px 50px;
+}
+
+#no1 {
+  justify-content: flex-start;
+}
+
+#no2 {
+  justify-content: flex-end;
+}
+
+#no3 {
+  justify-content: center;
+}
+
+#no4 {
+  justify-content: space-between;
+}
+
+#no5 {
+  justify-content: space-around;
+}
