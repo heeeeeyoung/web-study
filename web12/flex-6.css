@@ -1,0 +1,26 @@
+.box {
+  width: 300px;
+
+  border: 4px solid black;
+  background-color: coral;
+
+  margin: 50px 50px;
+}
+
+.container {
+  width: 1200px;
+  height: 500px;
+
+  display: flex;
+
+  border: 4px solid red;
+  margin: 50px 50px;
+}
+
+#no1 {
+  align-self: flex-start;
+}
+
+#no3 {
+  align-self: stretch;
+}
