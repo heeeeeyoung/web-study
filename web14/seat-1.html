@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <title>seat-1</title>
+  </head>
+  <body>
+    <script>
+      let totalNum = prompt("전체 입장객의 수를 입력하시오");
+      let colNum = prompt("한 줄에 몇명씩 앉을 건가요?");
+
+      if (totalNum % colNum == 0) {
+        rowNum = totalNum / colNum;
+      } else {
+        rowNum = totalNum / colNum + 1;
+      }
+
+      alert("모두" + rowNum + "개의 줄이 필요합니다.");
+    </script>
+  </body>
+</html>
