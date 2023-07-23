@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <title>factorial</title>
+  </head>
+
+  <body>
+    <script>
+      document.write("<h1>while문을 사용한 팩토리얼 계산</h1>");
+
+      let n = prompt("숫자를 입력하시오");
+
+      if (n !== null) {
+        let fac = 1;
+        let i = 1;
+        let msg = "";
+
+        while (i <= n) {
+          fac = fac * i;
+          i++;
+        }
+
+        msg = n + "! = " + fac;
+
+        document.write("<h2>" + msg + "</h2>");
+      } else {
+        document.write("<h2>입력된 값이 없습니다.</h2>");
+      }
+    </script>
+  </body>
+</html>
