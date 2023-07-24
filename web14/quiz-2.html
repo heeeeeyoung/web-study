@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <title>quiz-2</title>
+  </head>
+  <body>
+    <script>
+      document.write("<h1>3의 배수 찾기요~</h1>");
+
+      let num = prompt("숫자를 입력하시오");
+      let i;
+      let count = 0;
+
+      if (num !== null) {
+        for (i = 1; i <= num; i++) {
+          if (i % 3 === 0) {
+            document.write("<h2>" + i + "</h2>");
+
+            count++;
+          }
+        }
+        document.write(
+          "<h2>1부터" + num + "까지 중 3의 배수의 개수 : " + count + "</h2>"
+        );
+      } else {
+        document.write("<h2>숫자를 입력하시라고요</h2>");
+      }
+    </script>
+  </body>
+</html>
