@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <title>quiz-1</title>
+
+    <style></style>
+  </head>
+  <body>
+    <script>
+      document.write("<h1>4의 배수일까 아닐까</h1>");
+
+      let num = prompt("숫자를 입력하시오");
+
+      if (num !== null) {
+        if (num % 4 === 0) {
+          document.write("<h2>4의 배수가 맞다요</h2>");
+        } else {
+          document.write("<h2>4의 배수가 아님요</h2>");
+        }
+      } else {
+        document.write("<h2>왜 숫자를 안입력해?</h2>");
+      }
+    </script>
+  </body>
+</html>
