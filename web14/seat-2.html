@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Document</title>
+
+    <style>
+      div {
+        display: inline-block;
+        margin: 20px 20px;
+      }
+    </style>
+  </head>
+  <body>
+    <script>
+      let i;
+      let j;
+      let seatNum;
+      let totalNum = prompt("전체 입장객 수를 입력하시오");
+
+      let colNum = prompt("한 줄에 몇명씩 앉을겨");
+      let rowNum;
+
+      if (totalNum !== null) {
+        if (totalNum % colNum === 0) {
+          rowNum = totalNum / colNum;
+        } else {
+          rowNum = totalNum / colNum + 1;
+        }
+      }
+
+      for (i = 0; i < rowNum; i++) {
+        for (j = 0; j < colNum; j++) {
+          seatNum = i * colNum + j;
+
+          document.write("<div>");
+          if (seatNum < totalNum) {
+            document.write("<h2>좌석" + seatNum + "</h2>");
+          }
+
+          document.write("</div>");
+        }
+        document.write("<br />");
+      }
+    </script>
+  </body>
+</html>
